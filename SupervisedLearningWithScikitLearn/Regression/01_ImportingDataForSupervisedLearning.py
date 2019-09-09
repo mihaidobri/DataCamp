@@ -1,3 +1,10 @@
+'''
+Your goal will be to use this data to predict the life expectancy in a given country based on features such as the country's GDP, fertility rate, and population.
+Since the target variable here is quantitative, this is a regression problem. To begin, you will fit a linear regression with just one feature: 'fertility', which is the average number of children a woman in a given country gives birth to. In later exercises, you will use all the features to build regression models.
+
+Before that, however, you need to import the data and get it into the form needed by scikit-learn. This involves creating feature and target variable arrays. Furthermore, since you are going to use only one feature to begin with, you need to do some reshaping using NumPy's .reshape()
+'''
+
 # Import numpy and pandas
 import numpy as np
 import pandas as pd
