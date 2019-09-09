@@ -27,3 +27,5 @@ X = X.reshape(-1,1)
 # Print the dimensions of X and y after reshaping
 print("Dimensions of y after reshaping: {}".format(y.shape))
 print("Dimensions of X after reshaping: {}".format(X.shape))
+
+#explore the DataFrame using pandas methods such as .info(), .describe(), .head()
